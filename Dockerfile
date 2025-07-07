@@ -4,6 +4,6 @@ RUN yum install python3 -y
 
 RUN pip3 install flask
 
-COPY app.py /app.py
+COPY devops.py /devops.py
 
-CMD ["python3", "/app.py"]
+CMD ["python3", "/devops.py"]
